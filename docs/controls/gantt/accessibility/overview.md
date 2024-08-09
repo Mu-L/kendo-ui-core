@@ -1,17 +1,18 @@
 ---
 title: Overview
-page_title: jQuery Grid Documentation | Grid Accessibility
-description: "Get started with the jQuery Grid by Kendo UI and learn about its accessibility support for WAI-ARIA, Section 508, and WCAG 2.2."
-slug: accessibility_kendoui_grid_widget
+page_title: jQuery Gantt Documentation | Gantt Accessibility
+description: "Get started with the jQuery Gantt by Kendo UI and learn about its accessibility support for WAI-ARIA, Section 508, and WCAG 2.2."
+slug: accessibility_kendoui_gantt_widget
 position: 1
 ---
 
-# Grid Accessibility
+# Gantt Accessibility
 
-The Grid is accessible by screen readers and provides WAI-ARIA, Section 508, WCAG 2.2, and keyboard support.
+The Gantt is accessible by screen readers and provides [`WAI-ARIA`](https://www.w3.org/WAI/ARIA/apg/), [`Section 508`](https://www.section508.gov/), [`WCAG 2.2`](https://www.w3.org/TR/WCAG22/), and keyboard support.
 
- For more information, refer to:
-* [Keyboard navigation by the Kendo UI Grid]({% slug keynav_kendoui_grid_widget %})
+> The described level of compliance is achievable with the [`Ocean Blue A11y Accessibility Swatch`](/accessibility/themes-swatches).
+
+For more information, refer to:
 * [Accessibility in Kendo UI for jQuery]({% slug overview_accessibility_support_kendoui %})
 
 
@@ -246,11 +247,15 @@ The Grid has been tested with the following screen readers and browsers combinat
 
 
 ### Automated Testing
-The Grid has been tested with [axe-core](https://github.com/dequelabs/axe-core).
+
+The Gantt has been tested with [axe-core](https://github.com/dequelabs/axe-core).
+
 ### Test Example
-A live test example of the Grid component could be found here: https://demos.telerik.com/kendo-ui/accessibility/grid
+
+A live test example of the Gantt component could be found here: https://demos.telerik.com/kendo-ui/accessibility/gantt
+
 ## See Also
-* [Keyboard Navigation by the Grid (Demo)](https://demos.telerik.com/kendo-ui/grid/keyboard-navigation)
-* [Keyboard Navigation by the Grid]({% slug keynav_kendoui_grid_widget %})
+
+* [Keyboard Navigation by the Gantt (Demo)](https://demos.telerik.com/kendo-ui/gantt/keyboard-navigation)
 * [Keyboard Support in Kendo UI for jQuery]({% slug keyboard_shortcuts_accessibility_support %})
 * [Accessibility in Kendo UI for jQuery]({% slug overview_accessibility_support_kendoui %})
